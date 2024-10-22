@@ -1,0 +1,78 @@
+# Site
+title:              Mr. Gaurav Sharma
+bio:                'Software Craftsman with 12 years hands-on development experience using Ruby, Rails, Python, FastAPI, Django, MySQL, AWS, React JS, Test Automation and Other web technologies. <br/><br/> Worked as a Sr. Software Engineer / Team Lead position / Principal Software Consultant on multiple projects.'
+description:        'Software Craftsman with 12 years hands-on development experience using Ruby, Rails, Python, FastAPI, Django, MySQL, AWS, React JS, Test Automation and Other web technologies. <br/><br/> Worked as a Sr. Software Engineer / Team Lead position / Principal Software Consultant on multiple projects.'
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/profile2.png'
+#background:         'assets/img/background.JPG'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_UK
+url:                https://gaurav2728.github.io
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+disqus_shortname:   gaurav2728
+
+# Social
+# if you don't have any of social below, comment the line.
+google:
+  #plus:            #username
+  analytics:       'UA-90951103-1'
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+twitter:            gaurav2728s
+#facebook:          gaurav2728
+github-url:         gaurav2728
+stackoverflow:      1838219/gaurav-sharma
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           gaurav2728
+xing:               Gaurav_Sharma49
+#instagram:         gaurav2728
+#lastfm:            username
+#tumblr:            username
+#medium:            '@gaurav2728'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+
+# Gems
+plugins:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
